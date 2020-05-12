@@ -1,0 +1,1 @@
+cmd_/root/mod/syscallhook/my_open.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /root/mod/syscallhook/my_open.ko /root/mod/syscallhook/my_open.o /root/mod/syscallhook/my_open.mod.o
